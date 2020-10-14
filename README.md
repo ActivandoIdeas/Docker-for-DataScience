@@ -1,5 +1,11 @@
 # Complete Data Science tools with Docker
 
+This image expose jupyter in port **8888** with password **root**
+
+<div align="center">
+  <img src="img/capture.png">
+</div>
+
 ## Supports
 
 * Anaconda 3 2020
