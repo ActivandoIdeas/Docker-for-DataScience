@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  condajupyter:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: notebooks
+    image: datascience
+    tty: true
+    ports:
+        - 8888:8888
+    volumes:
+        - ./notebooks:/opt/notebooks
